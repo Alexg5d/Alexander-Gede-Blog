@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lebenslauf</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .title {
+            color: #0078d7;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #0078d7;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .education div {
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        p {
+            margin: 5px 0;
+            color: #666;
+        }
+
+        .skills {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li {
+            margin: 5px 0;
+            padding-left: 15px;
+            position: relative;
+        }
+
+        .skills li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #0078d7;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="section">
+            <h2 class="title">Bildung</h2>
+            <div class="education">
+                <div>
+                    <h3>Bachelor of Science in Informatik</h3>
+                    <p>Universität Musterstadt | 2013 - 2017</p>
+                    <p>Vertiefung in Softwareentwicklung und Webtechnologien.</p>
+                </div>
+                <div>
+                    <h3>Abitur</h3>
+                    <p>Gymnasium Musterstadt | 2012</p>
+                    <p>Schwerpunkt auf Mathematik und Informatik.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="title">Fähigkeiten</h2>
+            <ul class="skills">
+                <li>HTML, CSS, JavaScript</li>
+                <li>React.js, Vue.js</li>
+                <li>Node.js, Express</li>
+                <li>Git und GitHub</li>
+                <li>Responsive Webdesign</li>
+                <li>SEO und Performance-Optimierung</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
